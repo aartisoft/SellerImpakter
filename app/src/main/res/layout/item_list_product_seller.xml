@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_2">
+
+    <com.impakter.seller.widget.SquareImageView
+        android:id="@+id/iv_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_120"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image2" />
+
+    <com.impakter.seller.widget.textview.TextViewHeeboRegular
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_6"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Baby power" />
+
+    <ToggleButton
+        android:id="@+id/switch_status"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_6"
+        android:layout_marginBottom="@dimen/dp_6"
+        android:layout_centerVertical="true"
+        android:background="@drawable/toggle_selector"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn="" />
+
+    <!--<com.suke.widget.SwitchButton-->
+        <!--android:id="@+id/switch_status"-->
+        <!--android:layout_width="@dimen/dp_50"-->
+        <!--android:layout_height="@dimen/dp_30"-->
+        <!--app:sb_checked="true"-->
+        <!--app:sb_checked_color="@color/text_color_blue"-->
+        <!--app:sb_checkline_color="@android:color/transparent"-->
+        <!--app:sb_uncheck_color="@color/color_gray2"-->
+        <!--app:sb_uncheckcircle_color="@color/color_white" />-->
+</LinearLayout>

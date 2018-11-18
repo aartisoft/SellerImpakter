@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_70"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_16"
+    android:orientation="vertical">
+
+    <com.joooonho.SelectableRoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_product"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_90"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1"
+        app:sriv_left_bottom_corner_radius="@dimen/dp_6"
+        app:sriv_left_top_corner_radius="@dimen/dp_6"
+        app:sriv_right_bottom_corner_radius="@dimen/dp_6"
+        app:sriv_right_top_corner_radius="@dimen/dp_6" />
+
+    <com.impakter.seller.widget.textview.TextViewHeeboRegular
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Chair"
+        android:textColor="@color/text_color_primary" />
+
+    <com.impakter.seller.widget.textview.TextViewHeeboRegular
+        android:id="@+id/tv_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lounge"
+        android:textColor="@color/text_color_primary"
+        android:visibility="gone" />
+</LinearLayout>

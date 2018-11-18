@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_border_fill"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_in_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.impakter.seller.widget.textview.TextViewHeeboRegular
+            android:id="@+id/tv_in_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inprogress"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.impakter.seller.widget.textview.TextViewHeeboRegular
+            android:id="@+id/tv_resolved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solved"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_reviewing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.impakter.seller.widget.textview.TextViewHeeboRegular
+            android:id="@+id/tv_reviewing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reviewing"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+</LinearLayout>

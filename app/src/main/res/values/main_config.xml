@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seller Impakter</string>
+
+
+    <string name="link_homepage"><u>http://yourcompanywebsite.com.au</u></string>
+    <string name="copy_right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</string>
+    <string name="copy_right_two">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</string>
+
+    <string name="facebook_app_id">263799307797045</string> <!--hicomregister@gmail.com-->
+    <!-- key map create by hicomdeveloper@gmail.com-->
+    <string name="google_map_api">AIzaSyAJ4N5DIUUW5KZ2I6COC1EDVn1Wl8Mqe9M</string>
+
+</resources>

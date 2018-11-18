@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "669568933240",
+    "firebase_url": "https://impakter-217913.firebaseio.com",
+    "project_id": "impakter-217913",
+    "storage_bucket": "impakter-217913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669568933240:android:24d8e8b3f53467e2",
+        "android_client_info": {
+          "package_name": "com.impakter.seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669568933240-aecm6lfmumopkqca7eht4fgeq6p65ko1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQickunVdlcSxhhVB214-ErBZoxAjxCtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
